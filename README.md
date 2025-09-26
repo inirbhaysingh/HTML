@@ -1,2 +1,2 @@
 # HTML
-This is my first Repository.
+This is my repository of Learning HTML
