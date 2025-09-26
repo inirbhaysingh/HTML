@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <h1>Testing table tag.</h1>
+    <table border="1">
+
+        <caption>Details of Employee</caption>
+
+        <thead>
+            <tr>
+                <th colspan="3">Details</th> <!-- colspan is used to merge columns. 3 Coloumns ki jagah lega -->
+                <!-- rowspan is used to merge rows. N row ki jagah lega -->
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th> Name </th>
+                <th> Age </th>
+                <th> City </th>
+            </tr>
+
+            <tr>
+                <td> John </td>
+                <td> 18 </td>
+                <td> New York </td>
+            </tr>
+
+            <tr>
+                <td> Doe </td>
+                <td> 25 </td>
+                <td> London </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+                <td> Peter </td>
+                <td> 30 </td>
+                <td> Paris </td>
+            </tr>
+        </tfoot>
+
+        <!-- thead, tbody and tfoot are used to divide table into three parts. Thead is for header, tbody is for body and tfoot is for footer. -->
+        <!-- It is used for styling purpose. This grouping is done so that we can target in CSS. -->
+
+    </table>
+</body>
+
+</html>
